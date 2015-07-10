@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="clustering/clustering.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="clustering/Globals/Globals.cs">
+    <Files>
+      <File FileName="clustering/PAM/PAM.cs" Line="1" Column="1" />
+      <File FileName="clustering/Data/Point.cs" Line="1" Column="1" />
+      <File FileName="clustering/KMeans/KMeans.cs" Line="1" Column="1" />
+      <File FileName="clustering/Program.cs" Line="1" Column="1" />
+      <File FileName="clustering/Data/Cluster.cs" Line="1" Column="1" />
+      <File FileName="clustering/DBSCAN/DBSCAN.cs" Line="1" Column="1" />
+      <File FileName="clustering/Utilities/PriorityQueue.cs" Line="1" Column="1" />
+      <File FileName="clustering/Data/DistanceMatrix.cs" Line="43" Column="15" />
+      <File FileName="clustering/Globals/Globals.cs" Line="8" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/JeongMinCha/Dropbox/recommender_system/MyMediaLite/MyMediaLite/Program.cs" line="90" column="1" />
+      <Breakpoint file="/Users/JeongMinCha/Dropbox/recommender_system/MyMediaLite/MyMediaLite/Program.cs" line="87" column="1" />
+      <Breakpoint file="/Users/JeongMinCha/Dropbox/recommender_system/MyMediaLite/MyMediaLite/RatingPrediction/KNN.cs" line="127" column="1" />
+      <Breakpoint file="/Users/JeongMinCha/Dropbox/recommender_system/MyMediaLite/MyMediaLite/RatingPrediction/KNN.cs" line="131" column="1" />
+      <Breakpoint file="/Users/JeongMinCha/Dropbox/recommender_system/MyMediaLite/MyMediaLite/RatingPrediction/KNN.cs" line="129" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{EFD39347-9504-4BD7-BCF0-EC5469F53E24}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>clustering</RootNamespace>
+    <AssemblyName>clustering</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Description>Data Mining Programming Assignment #3
+Perform clustering on a given data set. (with any clustering algorithm)</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CoordinateComparer.cs" />
+    <Compile Include="OPTICS\OPTICS.cs" />
+    <Compile Include="OPTICS\OrderSeeds.cs" />
+    <Compile Include="Globals\Globals.cs" />
+    <Compile Include="Utilities\PriorityQueue.cs" />
+    <Compile Include="Data\DataBase.cs" />
+    <Compile Include="Data\DistanceMatrix.cs" />
+    <Compile Include="Data\Point.cs" />
+    <Compile Include="Utilities\IPriorityEntity.cs" />
+    <Compile Include="Utilities\IIdenticable.cs" />
+    <Compile Include="Data\Cluster.cs" />
+    <Compile Include="KMeans\KMeans.cs" />
+    <Compile Include="Data\PointPair.cs" />
+    <Compile Include="AGNES\AGNES.cs" />
+    <Compile Include="DBSCAN\DBSCAN.cs" />
+    <Compile Include="PAM\PAM.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+</Project>

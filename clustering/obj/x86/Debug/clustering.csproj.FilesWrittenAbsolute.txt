@@ -1,0 +1,5 @@
+/Users/JeongMinCha/Development/XamarinStudio/clustering/clustering/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/JeongMinCha/Development/XamarinStudio/clustering/clustering/bin/Debug/clustering.exe.mdb
+/Users/JeongMinCha/Development/XamarinStudio/clustering/clustering/bin/Debug/clustering.exe
+/Users/JeongMinCha/Development/XamarinStudio/clustering/clustering/obj/x86/Debug/clustering.exe
+/Users/JeongMinCha/Development/XamarinStudio/clustering/clustering/obj/x86/Debug/clustering.exe.mdb
